@@ -1,0 +1,116 @@
+
+Streamer Tab
+
+  Streaming: Streaming
+
+  streamer_enable: Habilitar streaming
+  streamer_enable_tooltip: Habilita el módulo de streaming.
+
+  streamer_audio_in_mode: Entrada de audio
+  streamer_audio_in_mode_tooltip: Tipo de entrada de audi a utilizar.  Si usa pulseaudio, asegúrese de seleccionar la fuente "Monitor of ..." para esta entrada en "Pulse Audio Volume Control".
+
+  streamer_audio_in_alsa_device: Nombre de dispositivo ALSA
+  streamer_audio_in_jack_name: Nombre de puerto Jack
+
+
+  Icecast Streaming: Icecast Streaming
+
+  streamer_icecast_enable: Habilitar streaming de Icecast
+  streamer_icecast_enable_tooltip: Si está habilitado, un grabador enviará el audio a un servidor icecast via http.
+
+  streamer_icecast_mode: Salida de Icecast
+  streamer_icecast_bitrate: Bitrate de salida de Icecast
+  streamer_icecast_ip: IP de Icecast
+  streamer_icecast_port: Puerto de Icecast
+  streamer_icecast_mount: Icecast Mountpoint
+  streamer_icecast_password: Contraseña de Icecast
+  streamer_icecast_streamname: Descripción de Icecast
+  streamer_icecast_description: Icecast
+  streamer_icecast_url: URL de Icecast
+  streamer_icecast_public: Lista pública de stream Icecast
+
+  streamer_play_on_startup: Reproducir stream al iniciar
+  streamer_play_on_startup_tooltip: Desmarque esta opción cuando use la función 'trigger icecast stream on alerts' de la pestaña Alertas
+
+
+  RTSP Server: Servidor RTSP
+
+  streamer_rtsp_enable: Habilitar servidor RTSP
+  streamer_rtsp_enable_tooltip: Habilitar el servidor RTSP que emite la de salida audio via RTSP/Multicast RTP. Es necesario para salidas a dispositivos Livewire/Ravenna devices.
+
+  streamer_rtsp_port: Puerto de servidor RTSP
+  streamer_rtsp_clock_rate: Frecuencia de reloj de salida de audio
+
+  streamer_rtsp_allow_discovery: Permitir servicio de descubrimiento de RTSP
+  streamer_rtsp_allow_discovery_tooltip: Publicar el servidor RTSP via Avahi (mDNS-SD). Es necesario para el descubrimiento automático por dispositivos Livewire/Ravenna.
+
+
+  RTP/Livewire Streaming: Streaming de RTP/Livewire
+
+  streamer_rtp_enable: Habilitar streaming de RTP
+  streamer_rtp_enable_tooltip: Habilitar streaming RTP a una dirección específicada
+  streamer_rtp_port: Puerto de salida RTP
+  streamer_rtp_address: Dirección de Multicast
+  streamer_rtp_address_tooltip: La dirección IP de multicast o unicast enviará los datos de audio a: Usar 239.192.0.# para Livewire Multicast
+  streamer_rtp_encoding: Formato de codificación de audio
+  streamer_rtp_encoding_tooltip: Formato de codificación de audio a utilizar.  Opus necesita una frecuencia de reloj de 48000Hz.
+  streamer_rtp_clock_rate: Frecuencia de reloj de audio
+  streamer_rtp_enable_rtcp: ¿Usar RTCP?
+  streamer_rtp_enable_rtcp_tooltip: Si está habilitado, enviará paquetes de sincronización RTCP al siguiente número de puerto. (ej. si el puerto de salida está establecido a 5004, RTCP enviará al puerto 5005).
+
+
+  YouTube Streaming: Streaming de YouTube
+
+  streamer_youtube_enable: Habilitar streaming de YouTube Live
+  streamer_youtube_enable_tooltip: Habilita el streamer de YouTube Live. La salida de audio / video del reproductor será enviada a YouTube para ser transmitida en vivo.
+
+  streamer_youtube_key: Clave de streaming de YouTube
+
+  streamer_youtube_mode: Salida de YouTube
+
+  RTMP Streaming: Streaming de RTMP
+
+  streamer_rtmp_enable: Habilitar streaming de RTMP Live
+  streamer_rtmp_enable_tooltip: Habilita el streamer de RTMP Live.  La salida de audio / video del reproductor será enviada a RTMP para ser transmitida en vivo.
+
+  streamer_rtmp_url: URL de streaming RTMP
+
+  streamer_rtmp_mode: Salida de RTMP
+
+
+  TCP Streaming: Streaming de TCP
+
+  streamer_tcp_enable: Habilitar streaming de TCP Live
+  streamer_tcp_enable_tooltip: Habilita el streamer de TCP Live.  La salida de audio / video del reproductor será enviada a TCP para ser transmitida en vivo.
+
+  streamer_tcp_url: URL de streaming TCP
+  streamer_tcp_port: Puerto de streaming TCP
+  streamer_tcp_mode: Salida de TCP
+
+  UDP Streaming: Streaming de UDP
+
+  streamer_udp_enable: Habilitar streaming de UDP Live
+  streamer_udp_enable_tooltip: Habilita el streamer de UDP Live.  La salida de audio / video del reproductor será enviada a UDP para ser transmitida en vivo.
+
+  streamer_udp_url: URL de streaming UDP
+  streamer_udp_port: Puerto de streaming UDP
+  streamer_udp_mode: Salida de UDP
+
+
+
+  Audio Only: Solo audio
+  Variable: Variable
+
+  None: Ninguna
+  Ultrafast: Ultra rápido
+  Superfast: Super rápido
+  Veryfast: Muy rápido
+  Faster: Más rápido
+  Fast: Rápido
+  Medium: Medio
+  Slow: Lento
+  Slower: Más lento
+  Veryslow: Muy lento
+  Placebo: Placebo
+
+

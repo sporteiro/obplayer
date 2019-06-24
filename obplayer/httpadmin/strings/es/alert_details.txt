@@ -1,0 +1,27 @@
+
+Alert Details
+
+  Details of: Detalles de
+
+  Identifier: Identificador
+  Sender: Remitente
+  Sent: Enviado
+  Codes: Códigos
+  Status: Estado
+  Message Type: Tipo de mensaje 
+  Scope: Alcance
+  Language: Idioma
+  Event: Evento
+  Urgency: Urgencia
+  Severity: Gravedad
+  Certainty: Certeza
+  Expires: Expira
+  Sender Name: Nombre del remitente
+  Headline: Titular
+  Description: Descripción
+  Instruction: Instrucciones
+  Parameters: Parámetros
+  Event Codes: Códigos de evento
+  Attached Resources: Recursos adjuntos
+
+ 

@@ -1,0 +1,23 @@
+﻿Common
+  Okay: Okay
+  Save: Guardar
+  New: Nuevo
+  Edit: Editar
+  Delete: Borrar
+  Restore: Restaurar
+  Cancel: Cancelar
+  Yes Delete: Sí, borrar
+  No Cancel: No, cancelar
+  Clear: Limpiar
+  Close: Cerrar
+  Details: Detalles
+  Download: Descargar
+  Search: Buscar
+  Add: Añadir
+  Yes: Si
+  No: No
+  Expand: Expandir
+  Collapse: Contraer
+  Enabled: Habilitado
+  Disabled: Deshabilitado
+

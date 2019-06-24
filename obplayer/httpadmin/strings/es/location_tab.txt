@@ -1,0 +1,15 @@
+
+Location Tab
+
+  Location Map: Ubicación
+
+  location_enable: Habilitar visualización de mapa
+  location_longitude: Longitud (use grados decimales)
+  location_latitude_invalid: Coordenadas de longitud no válidas.
+  location_latitude: Latitud (use grados decimales)
+  location_longitude_invalid: Coordenadas de latitud no válidas.
+
+  drag_marker: Arrastre el marcador para actualizar coordenadas.
+  drag_map: Arrastre el mapa para desplazarlo.
+
+  Device Location: Ubicación del dispositivo.

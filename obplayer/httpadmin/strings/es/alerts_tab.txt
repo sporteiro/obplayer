@@ -1,0 +1,100 @@
+
+Alerts Tab
+
+  Emergency Alerts: Alertas
+
+  alerts_enable: Habilitar alertas de emergencia
+  alerts_geocode: Geocodificación de ubicación
+  alerts_geocode_tooltip: Una lista de geocódigos parciales separados por comas. La primera parte de un geocódigo de alerta debe ser igual a la primera parte de un geocódigo de esta lista para que la alerta está activa. See http://www.statcan.gc.ca/eng/subjects/standard/sgc/geography for a list of Canadian geocodes.
+  alerts_geocode_invalid: La geocodificación debe ser especificada como una lista de números separados por comas.
+
+  english: Inglés
+  french: Francés
+
+  alerts_language_primary: Idioma primario
+  alerts_voice_primary: Voz primaria (TTS)
+  alerts_language_secondary: Idioma secundario
+  alerts_voice_secondary: Voz secondaria (TTS)
+
+  alerts_repeat_interval: Intervalo de repetición (en minutos)
+  alerts_repeat_interval_tooltip: El tiempo en minutos entre cada ciclo de alerta (sin incluir la duración del ciclo).  Si se recibe una nueva alerta activa antes de que se complete este tiempo, un ciclo de alerta comenzará 20 segundos más tarde.
+
+  alerts_repeat_times: Reproducciones por alerta (0 = sin limite)
+  alerts_repeat_times_tooltip: El número de ciclos en el que una alerta determinada será reproducida antes de que termine. Un valor de 0 repetirá cada alerta hasta que se alcance el tiempo de expiración de la alerta o sea cancelada por la autoridad emisora.
+
+  alerts_truncate: Cortar mensajes de alerta largos
+  alerts_truncate_tooltip: Si está seleccionado, las alertas no marcadas como 'Broadcast Immediately' serán cortadas después del primer párrafo (tras la primera línea en blanco). Alertas marcadas como 'Broadcast Immediately' nunca serán cortadas.
+
+  alerts_play_moderates: Reproducir alertas moderadamente graves
+  alerts_play_moderates_tooltip: Incluye alertas no marcadas como 'Broadcast Immediately'. Las alertas marcadas como 'Broadcast Immediately' siempre serán reproducidas.
+
+
+  Advanced Settings: Ajustes avanzados
+
+  alerts_purge_files: Eliminar alertas guardadas tras 90 días
+  alerts_purge_files_tooltip: Borrar archivos xml y wav de alertas guardados tras 90 días.
+
+  alerts_trigger_serial: Activa el RS-232 DTR en alertas
+  alerts_trigger_serial_tooltip: Si está seleccionado, el puerto serial (configurado más abajo) se abrirá cuando empiece el ciclo de alerta, y la señal DTR será fijada. La línea DTR se despejará y el puerto serial se cerrará cuando el ciclo de alerta se haya completado.
+
+  alerts_trigger_serial_file: Nombre de archivo del dispositivo RS-232
+  alerts_trigger_serial_file_tooltip: El nombre de archivo del dispositivo de puerto serial en el que se define la línea DTR a señal cuando la señal de alerta está en camino.
+  alerts_trigger_serial_file_invalid: El nombre de archivo del dispositivo RS-232 parece no ser válido.
+
+  alerts_trigger_streamer: Activa el stream de Icecast en alertas
+
+  alerts_trigger_streamer_tooltip: Si está seleccionado, el módulo streamer (configurado en la pestaña 'Streaming') será iniciado cuando comience un ciclo de alerta y detenido cuando se complete.  Asegúrese de desmarcar la opción 'Play Stream on Startup' en la pestaña 'Streaming' para que no se inicie automáticamente cuando se inicia el programa.
+
+  alerts_play_tests: Reproduce tests de alertas
+  alerts_play_tests_tooltip: Incluye alertas marcadas como test. No son test programados del sistema de alerta, sino el sistema de tests internos que normalmente no son reproducidos al público.
+
+  alerts_leadin_delay: Retraso Lead-In (en segundos)
+  alerts_leadin_delay_tooltip: The time in seconds of silence after an alert cycle has started but before the first alert audio is played.
+  alerts_leadin_delay_invalid: The alert lead-in delay must be 1s or greater.
+
+  alerts_leadout_delay: Retraso Lead-Out (en segundos)
+  alerts_leadout_delay_tooltip: El tiempo en segundos después de que un ciclo de alerta se haya completado.
+  alerts_leadout_delay_invalid: El retraso Lead-Out de la alerta debe ser de 1s o superior.
+
+  alerts_naad_stream1: URL del stream NAAD #1
+  alerts_naad_stream1_invalid: La URL del stream #1 parece no ser válida.
+
+  alerts_naad_stream2: URL del stream NAAD #2
+  alerts_naad_stream2_invalid: La URL del stream #2 parece no ser válida.
+
+  alerts_naad_archive1: URL del archivo NAAD #1
+  alerts_naad_archive1_invalid: La URL del archivo #1 parece no ser válida.
+
+  alerts_naad_archive2: URL del archivo NAAD #2
+  alerts_naad_archive2_invalid: La URL del archivo #2 parece no ser válida.
+
+
+  Alerting System Tests: Pruebas del sitema de alerta
+
+  Test Alerts: Probar alerta:
+  Simple Test: Test simple
+  Embedded Audio Test: Test de audio incrustado
+  External Audio Test: Test de audio externo
+  Embedded Audio and Image Test: Test de audio e imagen incrustados
+
+  Inject Alert: Inyectar alerta
+
+
+  Active Alerts: Alertas activas
+  No Active Alerts: No hay alertas activas
+
+  Expired Alerts: Alertas expiradas
+  No Expired Alerts: No hay alertas expiradas
+
+  Last Heartbeat Received: Último pulso recibido
+  none received: ninguna recibida
+  Alerts Will Play In: Las alertas comenzarán en
+
+  Cancel Alerts: Cancelar alertas
+
+  Cancel: Cancelar
+  Sender: Remitente
+  Times Played: Reproducciones
+  Headline: Titular
+  Description: Descripción
+

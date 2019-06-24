@@ -1,0 +1,57 @@
+
+Sources Tab
+
+  Sources: Fuentes
+
+
+  Fallback Player Settings: Ajustes del reproductor alternativo
+
+  fallback_enable: Habilitar reprodutor de medias alternativo
+  fallback_enable_tooltip: If enabled, and the scheduler is unable to played scheduled content, then content from the fallback media directory will be played until scheduled content is available.
+
+  fallback_media: Medias alternativos
+  fallback_media_invalid: El directorio de medias alternativos que ha especificado no existe.
+
+
+  Audio Input Settings: Ajustes de entrada de audio
+
+  audio_in_enable: Habilitar fuente de entrada de audio
+  audio_in_mode: Entrada de audio
+  audio_in_alsa_device: Nombre de dispositivo ALSA
+  audio_in_jack_name: Nombre de puerto Jack
+
+
+  AoIP Input Settings: Ajustes de entrada AoIP
+
+  aoip_in_enable: Habilitar entrada AoIP
+  aoip_in_uri: URI de fuente AoIP
+  aoip_in_uri_tooltip: URI de la fuente de stream de audio a utilizar. Puede ser tanto rtsp:// uri como sdp:/// file reference.
+
+
+  RTP/Livewire Audio Input Settings: Ajustes de entrada de audio RTP/Livewire
+
+  rtp_in_enable: Habilitar entrada RTP
+  rtp_in_port: Puerto de entrada RTP
+  rtp_in_address: Dirección de Multicast
+  rtp_in_address_tooltip: La dirección IP de multicast desde la que se reciben datos de audio. Dejar en blanco para recibir datos Unicast.
+  rtp_in_encoding: Formato de codificación de audio
+  rtp_in_encoding_tooltip: Formato de codificación de audio a usar.  Opus requiere una frecuencia de reloj de 48000Hz.
+  rtp_in_clock_rate: Frecuencia de reloj de audio
+  rtp_in_enable_rtcp: ¿Usar RTCP?
+  rtp_in_enable_rtcp_tooltip: If enabled, this will listen for RTCP synchronization packets on the next port number. (ie. if input port is set to 5004, RTCP will listen on port 5005).
+
+
+  Image Display Settings: Ajustes de presentación de imagen
+
+  images_transitions_enable: Habilitar transición de imagen
+  images_width: Ancho fijo
+  images_height: Alto fijo
+  images_framerate: Framerate fijo
+
+  Fixed Image Size & Framerate: Tamaño de imagen y framerate
+
+  Test Signal Settings: Ajustes de señal de testeo
+  
+  testsignal_enable: Habilitar señal de testeo
+
+

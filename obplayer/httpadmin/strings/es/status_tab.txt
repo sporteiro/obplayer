@@ -1,0 +1,50 @@
+
+Status Tab
+
+  Status: Estado
+
+  Show: Show
+  Audio Stream: Stream de audio
+  Visual Stream: Stream de video
+
+  Current Time: Hora actual
+  Uptime: Iniciado
+  Show Type: Tipo
+  Show ID: ID
+  Show Name: Nombre
+  Show Description: Descripción
+  Last Updated: Actualizado
+
+  Media Type: Tipo
+  Order #: Orden #
+  Media ID: ID
+  Media Artist: Artista
+  Media Title: Título
+  Media Duration: Duración
+  Scheduled End: Finaliza
+
+  Scheduled: Programación
+
+  Logs: Logs
+  Level: Nivel
+  Normal: Normal
+  Debug: Debug
+  Downloads: Descargar Logs
+
+Status Media Type
+
+  audio: audio
+  video: video
+  image: imagen
+
+Status Show Type
+
+  standard: standard
+  advanced: advanced
+  liveassist: live assist
+
+Logs Download:
+
+  Status Logs: Logs de estado
+  Audio Logs: Logs de audio
+

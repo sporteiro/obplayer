@@ -1,0 +1,25 @@
+
+Responses
+
+  settings-saved-success: Configuración guardada.
+  settings-imported-success: Configuración importada con éxito. Por favor, reinicia el "Player" para que los cambios surtan efecto.
+
+  player-connection-lost: Perdida la conexión con el "Player".
+  permissions-error-guest: No tienes los permisos necesarios. Ha iniciado sesión como invitado.
+  
+  passwords-dont-match: The passwords supplied to do match.
+
+  updater-disabled-error: Actualizar está deshabilitado.
+
+  streamer_icecast_bitrate_invalid: El bitrate de Icecast no es válido.
+
+  alerts-disabled-error: El módulo de alertas de emergencia está actualmente deshabilitado.
+  alerts-invalid-filename: El test de alerta especificado es invalido o no existe.
+  alerts-inject-success: Test de alerta inyectado con éxito.
+  alerts-cancel-success: Alerta(s) canceladas con éxito.
+
+  pulse-control-disabled: Controles de PulseAudio están deshabilitados.
+  media-deleted-success: Eliminados medias no usados
+  sync-shows-success: Shows sincronizados  
+
+

@@ -1,0 +1,65 @@
+
+Sync Tab
+
+  Sync/Media: Sinc/Media
+
+  scheduler_enable: Habilitar Scheduler/Sync
+  scheduler_enable_tooltip: Si está marcada, el Player intentará conectar al servidor OpenBroadcaster Manager y descargar programación y medias para su reproducción.
+
+  sync_device_id: ID del dispositivo
+  sync_device_id_invalid: La ID del dispositivo no es válida.
+
+  sync_device_password: Contraseña del dispositivo
+  sync_device_password_invalid: Es necesaria una contraseña de dispositivo.
+
+  sync_url: URL de Sinc
+  sync_url_invalid: La URL de sinc parece no ser válida.
+  asrunlog_path: Ruta para guardar asrunlog
+
+  bandwidth_limit: Limitar ancho de banda (Kbps)
+  delete_unused_media: Eliminar medias no usados
+
+  sync_buffer: Tamaño del buffer de sinc.
+  sync_buffer_tooltip: El Player traerá esta cantidad de horas de programación desde el servidor.
+  sync_buffer_invalid: El buffer de sinc. no es válido.
+
+  sync_showlock: Hora de cierre del Show
+  sync_showlock_tooltip: Cuando se esté descargando programación, los shows programados para comenzar en ese periodo de tiempo serán ignorados.
+  sync_showlock_invalid: El cierre del show no es válido.
+
+  sync_freq: Frecuencia de sinc. de Media
+  sync_freq_tooltip: Número de minutos entre la sinc. de las programaciones y el contenido de las medias.
+  sync_freq_invalid: La sincronización de frecuencia de Media no es válida.
+
+  sync_freq_priority: Frecuencia de sinc. de alertas prioritarias
+  sync_freq_priority_tooltip: Número de minutos entre la sinc. de las alertas prioritarias.
+  sync_freq_priority_invalid: La frecuencia de sinc. de prioridad no es válida.
+
+  sync_playlog_enable: Habilitar sinc. de Playlog
+  sync_playlog_enable_tooltip: Si está marcado, una lista del contenido de medias reproducidos se sincronizarán con el servidor.
+
+  sync_freq_playlog: Frecuencia de sinc. del Playlog
+  sync_freq_playlog_tooltip: Número de minutos entre la sinc. de playlogs.
+  sync_freq_playlog_invalid: La frecuencia de sinc. del playlog no es válida.
+
+  sync_mode: Sinc. de Media
+  sync_mode_tooltip: En modo 'remoto', los medias serán traidos desde el servidor y borrados cuando ya no sean necesarios. En modo 'copia de seguridad', una copia de todos los medias descargados será mantenida para su uso futuro en 'Media local'. En modo 'local', solo se usarán los medias en el directorio 'Media local', y ningún media se descargará desde el servidor.
+  remote: remoto
+  backup: copia de seguridad
+  local: local
+
+  sync_copy_media_to_backup: Copia de seguridad de medias descargadas
+  sync_shows_now: Sincronizar shows ahora
+  delete_unused_media_now: Eliminar medias no usados ahora
+
+  local_media: Media local
+  local_media_invalid: El directorio local de medias que ha especificado no existe.
+
+  remote_media: Ubicación remota de Media
+
+  Advanced Settings: Ajustes avanzados
+
+  Enable/Disable Scheduler: Habilitar / Deshabilitar Scheduler
+  Toggle: Conmutar
+  Enabled: Habilitado
+  Disabled: Deshabilitado

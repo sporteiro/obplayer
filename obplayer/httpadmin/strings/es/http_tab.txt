@@ -1,0 +1,26 @@
+
+HTTP Tab
+
+  HTTP(S) Admin: HTTP(S)
+
+  http_admin_language: Idioma
+  http_admin_secure: Habilitar SSL
+
+  http_admin_port: Puerto del Dashboard
+  http_admin_port_invalid: El puerto del administrador web no es válido.
+
+  http_admin_sslreq: ¿Exigir SSL al conectar?
+  http_admin_sslkey: Archivo de clave SSL
+  http_admin_sslcert: Archivo de certificado SSL
+  http_admin_sslcert_invalid: Para usar un administrador web con SSL es necesario un certificado válido.
+  http_admin_sslca: Archivo SSL CA
+
+  http_admin_username: Usuario de administrador
+  http_admin_password: Contraseña de administrador
+  http_admin_password_retype: Repita contraseña de administrador:
+  http_readonly_username: Nombre de usuario solo-lectura
+  http_readonly_password: Contraseña de usuario solo-lectura
+  http_readonly_allow_restart: Permitir reiniciar a usuarios solo-lectura
+  http_admin_title: Titulo del Dashboard
+
+

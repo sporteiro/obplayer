@@ -1,0 +1,10 @@
+Summary Tab
+
+  Summary: Resumen
+  Current Configuration: Configuración actual
+
+  Version: Versión
+  Local Time: Hora local
+  Device Coordinates: Coordenadas del dispositivo
+
+  Fixed Image Size & Framerate: Tamaño de imagen y framerate

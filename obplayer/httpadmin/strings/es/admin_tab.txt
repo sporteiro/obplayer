@@ -1,0 +1,25 @@
+
+Admin Tab
+
+  Admin: Administrador
+
+  Advanced Settings: Ajustes avanzados
+  http_show_sync: Mostrar pestaña Sinc/Media
+  http_show_streaming: Mostrar pestaña Streaming
+  http_show_alerts: Mostrar pestaña Alertas
+  http_show_location: Mostrar pestaña Ubicación
+  http_show_liveassist: Mostrar pestaña Live Assist
+
+  Delete_and_reset: Borrar data.db y reiniciar
+  Import Settings: Importar ajustes
+  Import: Importar
+  Select File: Seleccionar archivo de ajustes
+  Export Settings: Exportar ajustes
+  Export: Exportar
+  Update Player: Actualizar "Player"
+  Update: Actualizar
+  Check: Comprobar versión
+  Current Version: Versión actual
+  Latest Version: Ultima versión
+  Already up to date: Ya está actualizado.
+

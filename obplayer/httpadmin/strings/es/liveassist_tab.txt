@@ -1,0 +1,27 @@
+
+LiveAssist Tab
+
+  Live Assist: Live Assist
+
+  live_assist_enable: Habilitar Live Assist
+
+  live_assist_port: Puerto HTTP de Live Assist
+  live_assist_port_invalid: Live Assist y administrador HTTP no pueden usar el mismo puerto.
+
+  live_assist_mic_enable: Habilitar micrófono Live Assist
+  live_assist_file_hash_check: Comprobación automatica de integridad
+
+  Microphone Output Settings: Ajustes de salida de micrófono
+
+  live_assist_mic_mode: Salida de micrófono
+  live_assist_mic_alsa_device: Nombre de dispositivo ALSA
+  live_assist_mic_jack_name: Nombre de puerto Jack
+
+  Monitor Input Settings: Ajustes de entrada del monitor
+
+  live_assist_monitor_mode: Entrada del monitor
+  live_assist_monitor_alsa_device: Nombre de dispositivo ALSA
+  live_assist_monitor_jack_name: Nombre de puerto Jack
+
+
+

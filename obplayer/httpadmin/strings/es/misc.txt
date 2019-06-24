@@ -1,0 +1,47 @@
+
+Footer
+  footer_message1: OpenBroadcaster Player es liberado bajo
+  footer_message2: Descargas y actualizaciones disponibles en
+  footer_message3: Manual de ayuda disponible en
+
+Miscellaneous
+
+  Restart: Reiniciar
+  Restarting: Reiniciando
+  Fullscreen: Pantalla completa
+  Fullscreen (On): Pantalla completa (activo)
+  Fullscreen (Off): Pantalla completa (inactivo)
+  Reset To Defaults and Restart: Restaurar valores y reiniciar
+
+Time
+  seconds: segundos
+  minutes: minutos
+  hours: horas
+  times: repeticiones
+
+Media Type:
+  audio: audio
+  video: video
+  image: imagen
+
+Gstreamer Modes
+
+  Auto Detect: Detectar
+  No Output: Ninguno
+  No Input: Ninguno
+
+  ALSA: ALSA
+  Esound: Esound
+  JACK: JACK
+  OSS: OSS
+  Pulse Audio: Pulse Audio
+  Shoutcast: Shoutcast
+
+  X11: X11
+  XVideo: XVideo
+  OpenGL: OpenGL
+  EGL/GLES: EGL/GLES
+  Wayland: Wayland
+  Coloured ASCII: ASCII coloreado
+
+

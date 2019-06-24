@@ -1,0 +1,46 @@
+
+Outputs Tab
+
+  Outputs: Salidas
+
+  Audio Output Settings: Ajustes de salida de audio
+
+  audio_out_mode: Salida de audio
+  audio_out_alsa_device: Nombre de dispositivo ALSA
+  audio_out_jack_name: Nombre del puerto Jack
+  audio_out_shout2send_ip: IP de Shoutcast
+  audio_out_shout2send_port: Puerto de Shoutcast
+  audio_out_shout2send_mount: Shoutcast Mountpoint
+  audio_out_shout2send_password: Contraseña de Shoutcast
+  audio_out_visualization: Habilitar visualización de audio
+  gst_init_callback: Gstreamer Init Callback
+  audiolog_enable: Habilitar logging de audio
+  audiolog_purge_files: Eliminar logs de audio tras 90 días
+  audiolog_purge_files_tooltip: Borrar logs de audio tras 90 días.
+
+  Video Output Settings: Ajustes de salida de video
+
+  video_out_enable: Habilitar salida de video
+  video_out_mode: Salida de video
+  video_out_resolution: Resolución de salida de video
+  default: Por defecto
+
+  Video Overlay Settings: Ajustes de superposición de video
+
+  overlay_enable: Habilitar superposición de video
+  overlay_path_front: Ruta de la imagen frontal (mosca)
+  overlay_path_back: Ruta de la imagen de fondo
+  overlay_path_second: Ruta de la imagen secundaria (crawl)
+  overlay_text_font: Fuente y tamaño del texto
+  overlay_text: Texto para crawl
+  overlay_text_pos: Posición del texto 
+
+  LED Sign Settings: Ajustes de señales LED
+
+  led_sign_enable: Habilitar señal LED
+  led_sign_serial_file: Nombre de archivo del dispositivo LED
+  led_sign_serial_file_tooltip: El nombre de archivo del dispositivo del puerto serie de la señal LED al que es enviado el mensaje mientras un ciclo de alerta está en camino.
+  led_sign_timedisplay: Habilitar tiempo del LED
+  led_sign_init_message: Mensaje de inicio del LED
+  led_sign_init_message_tooltip: El mensaje a mostrar durante la inicialización de la señal LED.
+
